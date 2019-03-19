@@ -103,3 +103,38 @@ nav a {
   background: cornflowerblue;
   padding: 0 10px;
   padding-bottom: 2%; }
+
+#forms {
+  min-height: 50vh;
+  width: 100%;
+  background: forestgreen; }
+  #forms#forms h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: floralwhite;
+    text-transform: uppercase;
+    font-weight: 400; }
+  #forms#forms #paragraph1 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: floralwhite;
+    font-weight: 600; }
+
+aside {
+  margin-left: 2%;
+  color: floralwhite;
+  font-weight: bold; }
+
+.form-group {
+  text-align: center; }
+  .form-group.form-group input {
+    width: 45vh;
+    padding: 4px 0px; }
+
+#forms button {
+  position: relative;
+  left: 910px; }
+
+label {
+  font-size: 1.1rem;
+  color: floralwhite; }
