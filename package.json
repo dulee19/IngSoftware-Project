@@ -1,0 +1,14 @@
+{
+  "name": "ingsoftware-project",
+  "version": "1.0.0",
+  "description": "IngSoftware Project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Aleksic Dusan",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

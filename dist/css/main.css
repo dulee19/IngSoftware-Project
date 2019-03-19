@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  width: 100%; }
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden; }
+  header#bg-img {
+    background: url(../img/home-1.jpg); }
+
+.branding {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  width: 100%; }
+
+.branding #img1 {
+  width: 60px; }
+
+.branding #img2 {
+  width: 140px; }
+
+.branding p {
+  font-size: 1rem;
+  color: #fff; }
+
+nav {
+  float: right; }
+
+nav li {
+  display: inline-flex;
+  position: relative;
+  bottom: 60px;
+  width: 100px; }
+
+nav a {
+  color: floralwhite;
+  text-decoration: none;
+  transition: all .4s; }
+  nav a:hover {
+    color: gold;
+    text-decoration: none;
+    transition: all .4s; }
+
+.bg-content {
+  text-align: center;
+  margin-top: 30vh; }
+  .bg-content.bg-content h3 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #fff; }
+  .bg-content.bg-content p {
+    font-size: 1.2rem;
+    color: #fff; }
+
+.james-logo {
+  text-align: center;
+  margin-top: 5vh; }
+  .james-logo.james-logo a {
+    position: relative;
+    top: 55px;
+    right: 50px;
+    font-size: 1.3rem;
+    border: 1px solid gold;
+    padding: 5px 5px; }
+    .james-logo.james-logo a:hover {
+      text-decoration: none;
+      color: floralwhite;
+      padding: 3px 3px;
+      background: cornflowerblue;
+      transition: all .4s; }
+  .james-logo.james-logo img {
+    position: relative;
+    left: 40px; }
+
+#features {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  background: beige; }
+  #features#features h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  #features#features #paragraph {
+    text-align: center;
+    font-size: 1.2rem; }
+
+.our-service-inner {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px 0px; }
+
+.service-item {
+  background: cornflowerblue;
+  padding: 0 10px;
+  padding-bottom: 2%; }

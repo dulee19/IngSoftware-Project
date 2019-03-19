@@ -1,0 +1,15 @@
+$background-show-image: true;
+$background-image: url(../img/home-1.jpg);
+$content-color: cornflowerblue;
+
+@mixin background {
+	@if $background-show-image {
+		&#bg-img {
+			background: $background-image;
+		}
+	}
+}
+
+@mixin easeOut {
+	transition: all .4s;
+}
