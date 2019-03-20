@@ -50,6 +50,9 @@ nav a {
 		@include easeOut;
 	}
 }
+nav a#openup {
+	display: none;
+}
 
 
 .bg-content {
@@ -122,6 +125,7 @@ nav a {
 	margin: 0 auto;
 	width: 70%;
 	padding: 10px 0px;
+	padding-bottom: 20px;
 
 }
 .service-item {
@@ -137,6 +141,8 @@ nav a {
 	min-height: 50vh;
 	width: 100%;
 	background: forestgreen;
+	overflow-y: hidden;
+	padding-bottom: 10vh;
 
 	&#forms h2 {
 		text-align: center;
@@ -165,19 +171,73 @@ aside {
 		padding: 4px 0px;
 	}
 }
-
-#forms button {
-	position: relative;
-	left: 910px;
+input {
+	margin: 0 auto;
 }
 
 label {
 	font-size: 1.1rem;
 	color: floralwhite;
 }
+#btn_1 {
+	margin-left: 48.1%;
+}
 
 
 
+// About
+
+#about-us {
+	width: 100%;
+	height: 100vh;
+	padding-bottom: 20px;
+	background: url(../img/about-us-background.jpg) no-repeat center/cover;
+	overflow:hidden;
+	opacity: 0.96;
+
+}
+
+.about-logo {
+	margin-top: 40px;
+	margin-left: 20px;
+
+	&.about-logo h2 {
+		color: floralwhite;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	&.about-logo p {
+		color: floralwhite;
+	}
+}
 
 
 
+.james1 {
+	width: 100%;
+
+	&.james1 img {
+		margin-top: 25vh;
+		margin-left: 25vw;
+	}
+	&.james1 button {
+		float: right;
+		margin-right: 20vw;
+		margin-top: 24vh;
+	}
+}
+
+
+// Footer 
+
+.main-footer {
+	height: 4vh;
+	width: 100%;
+	background: dodgerblue;
+	text-align: center;
+	color: floralwhite;
+	font-size: 1.2rem;
+}
+
+
+@import 'mobile';
