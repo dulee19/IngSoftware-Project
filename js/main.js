@@ -39,3 +39,4 @@ $('.cf a').on('click',function(e) {
 });
 
 
+$('#form-contact').validate();
